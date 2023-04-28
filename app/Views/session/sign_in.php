@@ -59,7 +59,7 @@
         <div class="row d-flex justify-content-center align-items-center h-100">
           <!-- col-md-9 col-lg-8 col-xl-5 -->
           <div class="col-lg-7 col-md-12">
-            <img src="<?= base_url('assets/images/people-work.svg') ?>" class="img-fluid" alt="Sample image">
+            <img src="<?= base_url('assets/images/banner_sign-in.svg') ?>" class="img-fluid" alt="Sample image">
           </div>
 
           <!-- col-md-8 col-lg-4 col-xl-4 offset-xl-1 -->
