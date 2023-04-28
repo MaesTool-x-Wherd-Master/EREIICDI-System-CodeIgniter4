@@ -101,7 +101,7 @@
 
               <div class="text-center text-lg-start mt-4 pt-2">
                 <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-                <p class="small fw-bold mt-2 pt-1 mb-0">¿No tienes una cuenta? <a href="#!" class="link-danger">Registrarse</a></p>
+                <p class="small fw-bold mt-2 pt-1 mb-0">¿No tienes una cuenta? <a href="" class="link-danger">Registrarse</a></p>
               </div>
 
             </form>
