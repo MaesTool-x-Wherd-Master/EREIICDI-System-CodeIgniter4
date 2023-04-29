@@ -105,7 +105,7 @@
               <div class="d-flex flex-column align-items-center ">
 
                 <div class="d-grid gap-2 col-7 mx-auto mt-2 mb-2">
-                  <button class="btn btn-primary" type="submit">Iniciar sesión</button>
+                  <button class="btn btn-primary fw-bold" type="submit">Iniciar sesión</button>
                 </div>
 
                 <div class="mt-2 mb-4">
@@ -116,7 +116,7 @@
             </form>
 
             <div class="d-grid gap-2 col-7 mx-auto mt-4">
-              <button class="btn btn-success" type="submit">Crear una nueva cuenta</button>
+              <button class="btn btn-success fw-bold" type="submit">Crear una nueva cuenta</button>
             </div>
 
           </div>
