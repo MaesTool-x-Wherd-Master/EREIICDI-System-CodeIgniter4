@@ -63,7 +63,7 @@
         </div>
 
         <div class="col-lg-5  offset-1 col-sm-12">
-          <form>
+          <form class="border-bottom border-secondary-subtle">
             <!-- Heading Form -->
             <div class="mb-4 text-lg-start text-center">
               <h2>Crea una cuenta</h2>
@@ -117,15 +117,18 @@
             <div class="row mb-3">
 
               <!-- Email input -->
-              <div class="col-lg-7">
+              <div class="col-lg-12">
                 <div class="form-floating">
                   <input type="email" class="form-control" id="emailSignUp" placeholder="email@example.com">
                   <label for="emailSignUp">Correo electrónico</label>
                 </div>
               </div>
 
+            </div>
+
+            <div class="row mb-3">
               <!-- Password input -->
-              <div class="col-lg-5">
+              <div class="col-lg-12">
                 <div class="form-floating">
                   <input type="password" class="form-control" id="passSignUp" placeholder="Password">
                   <label for="passSignUp">Contraseña</label>
@@ -133,16 +136,18 @@
               </div>
             </div>
 
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="">
-                <button type="submit" class="btn btn-primary">Registrarme</button>
+            <div class="d-flex justify-content-between align-items-center mb-4">
+
+              <div class="d-grid gap-2 col-7 mx-auto mt-1">
+                <button class="btn btn-primary fw-bold" type="submit">Registrarme</button>
               </div>
 
-              <div class="">
-                <p class="small fw-bold m-0"> ¿Ya tienes una cuenta? <a href="#!" class="link-danger"> Iniciar Sesión </a></p>
-              </div>
             </div>
           </form>
+
+          <div class="mt-4 text-center">
+            <p class="small fw-bold m-0"> ¿Ya tienes una cuenta? <a href="#!" class="link-danger"> Iniciar Sesión </a></p>
+          </div>
 
         </div>
       </div>
