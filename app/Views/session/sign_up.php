@@ -51,81 +51,101 @@
 
       </div>
     </div>
-  </nav>       
+  </nav>
 
   <main>
-    <section>
-      <div class="container-sm">
-        <div class="row d-flex justify-content-center align-items-center h-100">
+    <section class="container-sm">
 
-        <div class="col-lg-7 col-md-12">
-                
-                <img src="<?= base_url('assets/images/ingles.jpeg') ?>" class="img-fluid" alt="Sample image">
-              </div>
+      <div class="d-flex flex-lg-row flex-column justify-content-center align-items-center h-100">
 
-          <!-- col-md-8 col-lg-4 col-xl-4 offset-xl-1 -->
-          <div class="col-lg-5 col-md-12">
-            <form class="d-flex flex-md-column flex-sm-column flex-column align-items-md-center">
-              <div class="mb-4 text-center text-lg-start">
-                <h2>Registro</h2>
-              </div>
+        <div class="col-lg-6 col-sm-12">
+          <img src="<?= base_url('assets/images/ingles.jpeg') ?>" class="img-fluid" alt="Sample image">
+        </div>
 
-              <!-- Nombres -->
-
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="text" class="form-control" id="nombresSignUp" placeholder="Ejempleodan">
-                <label for="nombreSignUp">Nombres</label>
-              </div>
-
-              <!-- Apellidos -->
-
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="text" class="form-control" id="apellidosSignUp" placeholder="PruebaPerez">
-                <label for="apellidosSignUp">Apellidos</label>
-              </div>
-
-              <!-- Género -->
-
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="text" class="form-control" id="generoSignUp" placeholder="MF">
-                <label for="generoSignUp">Género</label>
+        <div class="col-lg-5  offset-1 col-sm-12">
+          <form>
+            <!-- Heading Form -->
+            <div class="mb-4 text-lg-start text-center">
+              <h2>Crea una cuenta</h2>
             </div>
 
+            <div class="row mb-3">
 
-              <!-- Email input -->
+              <!-- Name Input  -->
+              <div class="col-lg-6 ">
+                <div class="form-floating ">
+                  <input type="text" class="form-control" id="nameSignUp" placeholder="Name">
+                  <label for="nameSignUp">Nombres</label>
+                </div>
+              </div>
 
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="email" class="form-control" id="emailSignIn" placeholder="nombre@ejemplo.com">
-                <label for="emailSignIn">Correo electrónico</label>
+              <!-- Surname Input  -->
+              <div class="col-lg-6 ">
+                <div class="form-floating ">
+                  <input type="text" class="form-control" id="surnameSignUp" placeholder="Surname">
+                  <label for="surnameSignUp">Apellidos</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+
+              <!-- Gender Select -->
+              <div class="col-lg-6">
+                <div class="form-floating">
+                  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>Selecciona tu género</option>
+                    <option value="femenino">Mujer</option>
+                    <option value="masculino">Hombre</option>
+                    <option value="ninguno">Prefiero no decirlo</option>
+                  </select>
+                  <label for="floatingSelect">Género</label>
+                </div>
               </div>
 
               <!-- Username Input -->
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="text" class="form-control" id="usernameSignIn" placeholder="Usuario123">
-                <label for="usernameSignIn">Nombre de usuario</label>
+              <div class="col-lg-6">
+                <div class="form-floating ">
+                  <input type="text" class="form-control" id="usernameSignUp" placeholder="Username">
+                  <label for="usernameSignUp">Nombre de usuario</label>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="row mb-3">
+
+              <!-- Email input -->
+              <div class="col-lg-7">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="emailSignUp" placeholder="email@example.com">
+                  <label for="emailSignUp">Correo electrónico</label>
+                </div>
               </div>
 
               <!-- Password input -->
-              <div class="col-lg-12 col-md-8 form-floating mb-3">
-                <input type="password" class="form-control" id="passSignIn" placeholder="Contraseña">
-                <label for="passSignIn">Contraseña</label>
+              <div class="col-lg-5">
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="passSignUp" placeholder="Password">
+                  <label for="passSignUp">Contraseña</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                <button type="submit" class="btn btn-primary">Registrarme</button>
               </div>
 
-              <div class="col-md-7 col-12 d-flex justify-content-md-between justify-content-sm-between justify-content-evenly g-2 flex-wrap ">
+              <div class="">
+                <p class="small fw-bold m-0"> ¿Ya tienes una cuenta? <a href="#!" class="link-danger"> Iniciar Sesión </a></p>
               </div>
+            </div>
+          </form>
 
-              <div class="text-center text-lg-start mt-4 pt-2">
-                <button type="submit" class="btn btn-primary">Registrarse</button>
-                <p class="small fw-bold mt-2 pt-1 mb-0"> Comenzar <a href="#!" class="link-danger"> Iniciar Sesión </a></p>
-              </div>
-
-            </form>
-
-
-          </div>
         </div>
       </div>
-
     </section>
   </main>
 
