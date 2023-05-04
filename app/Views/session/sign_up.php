@@ -18,7 +18,8 @@
       <div class="d-flex align-items-center justify-content-center vh-100">
 
         <div class="col-lg-6 col-sm-12">
-          <img src="<?= base_url('assets/images/ingles.jpeg') ?>" class="img-fluid" alt="Sample image">
+          <img src="<?= base_url('assets/images/undraw-sign-up.svg') ?>" class="img-fluid" alt="Sample image">
+         
         </div>
 
         <div class="col-lg-5  offset-1 col-sm-12">
