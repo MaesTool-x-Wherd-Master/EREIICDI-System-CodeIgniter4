@@ -13,10 +13,10 @@
 </head>
 
 <body>
-  <main>
+  <main class="bg-light bg-gradient">
     <section>
       <div class="container-sm">
-        <div class="d-flex flex-lg-row flex-column justify-content-center align-items-center h-100">
+        <div class="d-flex align-items-center justify-content-center vh-100">
 
           <div class="col-lg-6 col-sm-12">
             <img src="<?= base_url('assets/images/banner_sign-in.svg') ?>" class="img-fluid" alt="Sample image">
