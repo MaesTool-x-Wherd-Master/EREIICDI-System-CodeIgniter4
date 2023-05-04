@@ -15,24 +15,25 @@
 <body>
   <main class="bg-light bg-gradient">
     <section class="container-sm">
-      <div class="d-flex align-items-center justify-content-center vh-100">
+      <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center min-vh-100">
 
-        <div class="col-lg-6 col-sm-12">
-          <img src="<?= base_url('assets/images/banner_sign-in.svg') ?>" class="img-fluid" alt="Sample image">
+        <div class="col-12 col-md-10 col-lg-6">
+          <img src="<?= base_url('assets/images/undraw-sign-in.svg') ?>" class="img-fluid" alt="Ecosistema de Reactivos y Evaluaciones del Idioma Inglés para la Comunidad Docente de Idiomas">
+          <h1 class="text-center p-4 m-0">Ecosistema de Reactivos y Evaluaciones del Idioma Inglés para la Comunidad Docente de Idiomas</h1>
         </div>
 
 
-        <div class="col-lg-5  offset-1 col-sm-12">
+        <div class="col-12 col-md-10 col-lg-5  offset-lg-1 ">
 
           <!-- Heading Form -->
           <form class="border-bottom border-secondary-subtle">
             <div class="mb-4 text-lg-start text-center">
-              <h2>Inicia sesión</h2>
+              <h3>Inicia sesión</h3>
             </div>
 
             <div class="row mb-3">
               <!-- Email input -->
-              <div class="col-lg-12">
+              <div class="col-12 col-lg-12">
                 <div class="form-floating">
                   <input type="email" class="form-control" id="emailSignIn" placeholder="email@example.com">
                   <label for="emailSignIn">Correo electrónico</label>
