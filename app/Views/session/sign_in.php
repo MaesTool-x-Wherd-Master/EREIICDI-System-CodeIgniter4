@@ -14,75 +14,72 @@
 
 <body>
   <main class="bg-light bg-gradient">
-    <section>
-      <div class="container-sm">
-        <div class="d-flex align-items-center justify-content-center vh-100">
+    <section class="container-sm">
+      <div class="d-flex align-items-center justify-content-center vh-100">
 
-          <div class="col-lg-6 col-sm-12">
-            <img src="<?= base_url('assets/images/banner_sign-in.svg') ?>" class="img-fluid" alt="Sample image">
-          </div>
-
-
-          <div class="col-lg-5  offset-1 col-sm-12">
-
-            <!-- Heading Form -->
-            <form class="border-bottom border-secondary-subtle">
-              <div class="mb-4 text-lg-start text-center">
-                <h2>Inicia sesión</h2>
-              </div>
-
-              <div class="row mb-3">
-                <!-- Email input -->
-                <div class="col-lg-12">
-                  <div class="form-floating">
-                    <input type="email" class="form-control" id="emailSignIn" placeholder="email@example.com">
-                    <label for="emailSignIn">Correo electrónico</label>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <!-- Username Input -->
-                <div class="col-lg-12">
-                  <div class="form-floating ">
-                    <input type="text" class="form-control" id="usernameSignIn" placeholder="Username">
-                    <label for="usernameSignIn">Nombre de usuario</label>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <!-- Password input -->
-                <div class="col-lg-12">
-                  <div class="form-floating">
-                    <input type="password" class="form-control" id="passSignIn" placeholder="Password">
-                    <label for="passSignIn">Contraseña</label>
-                  </div>
-                </div>
-              </div>
+        <div class="col-lg-6 col-sm-12">
+          <img src="<?= base_url('assets/images/banner_sign-in.svg') ?>" class="img-fluid" alt="Sample image">
+        </div>
 
 
-              <div class="d-flex flex-column align-items-center ">
+        <div class="col-lg-5  offset-1 col-sm-12">
 
-                <div class="d-grid gap-2 col-7 mx-auto mt-2 mb-2">
-                  <button class="btn btn-primary fw-bold" type="submit">Iniciar sesión</button>
-                </div>
-
-                <div class="mt-2 mb-4">
-                  <a href="#!" class="text-body m-0">¿Olvidaste tu contraseña?</a>
-                </div>
-
-              </div>
-            </form>
-
-            <div class="d-grid gap-2 col-7 mx-auto mt-4">
-              <button class="btn btn-success fw-bold" type="submit">Crear una nueva cuenta</button>
+          <!-- Heading Form -->
+          <form class="border-bottom border-secondary-subtle">
+            <div class="mb-4 text-lg-start text-center">
+              <h2>Inicia sesión</h2>
             </div>
 
+            <div class="row mb-3">
+              <!-- Email input -->
+              <div class="col-lg-12">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="emailSignIn" placeholder="email@example.com">
+                  <label for="emailSignIn">Correo electrónico</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <!-- Username Input -->
+              <div class="col-lg-12">
+                <div class="form-floating ">
+                  <input type="text" class="form-control" id="usernameSignIn" placeholder="Username">
+                  <label for="usernameSignIn">Nombre de usuario</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <!-- Password input -->
+              <div class="col-lg-12">
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="passSignIn" placeholder="Password">
+                  <label for="passSignIn">Contraseña</label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="d-flex flex-column align-items-center ">
+
+              <div class="d-grid gap-2 col-7 mx-auto mt-2 mb-2">
+                <button class="btn btn-primary fw-bold" type="submit">Iniciar sesión</button>
+              </div>
+
+              <div class="mt-2 mb-4">
+                <a href="#!" class="text-body m-0">¿Olvidaste tu contraseña?</a>
+              </div>
+
+            </div>
+          </form>
+
+          <div class="d-grid gap-2 col-7 mx-auto mt-4">
+            <button class="btn btn-success fw-bold" type="submit">Crear una nueva cuenta</button>
           </div>
+
         </div>
       </div>
-
     </section>
   </main>
 
