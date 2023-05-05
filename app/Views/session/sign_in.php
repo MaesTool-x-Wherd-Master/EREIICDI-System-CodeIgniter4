@@ -19,7 +19,6 @@
 
         <div class="col-12 col-md-10 col-lg-6">
           <img src="<?= base_url('assets/images/undraw-sign-in.svg') ?>" class="img-fluid" alt="Ecosistema de Reactivos y Evaluaciones del Idioma Inglés para la Comunidad Docente de Idiomas">
-          <h1 class="text-center p-4 m-0">Ecosistema de Reactivos y Evaluaciones del Idioma Inglés para la Comunidad Docente de Idiomas</h1>
         </div>
 
 
@@ -28,7 +27,7 @@
           <!-- Heading Form -->
           <form class="border-bottom border-secondary-subtle">
             <div class="mb-4 text-lg-start text-center">
-              <h3>Inicia sesión</h3>
+              <h1>Inicia sesión</h1>
             </div>
 
             <div class="row mb-3">
